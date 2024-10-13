@@ -1,28 +1,28 @@
 export const i18n = {
-  tower: 'Башня',
-  wall: 'Стена',
+  tower: 'Лаборатория',
+  wall: 'Публикации',
   resource: 'Ресурс',
 
-  brick: 'кирпич',
-  bricks: 'Кирпичи',
-  gem: 'самоцвет',
-  gems: 'Самоцветы',
-  recruit: 'существо',
-  recruits: 'Существа',
+  brick: 'Данные',
+  bricks: 'Данные',
+  gem: 'деньги',
+  gems: 'деньги',
+  recruit: 'человекочас',
+  recruits: 'человекочасы',
 
-  quarry: 'Карьер', // i.e. brick production
-  magic: 'Магия', // i.e. gem production
-  dungeon: 'Подземелье', // i.e. recruit production
+  quarry: 'Оборудование', // i.e. brick production
+  magic: 'Престиж', // i.e. gem production
+  dungeon: 'Персонал', // i.e. recruit production
 
   'Your %s': 'Ваша %s', // Your quarry/tower
   "Opponent's %s": '%s противника', // Opponent's quarry/tower
 
-  '1 brick': '1 кирпич',
-  '%s bricks': '%s кирпичи', // 3 bricks
-  '1 gem': '1 самоцвет',
+  '1 brick': '1 экспериментальные данные',
+  '%s bricks': '%s экспериментальные данные', // 3 bricks
+  '1 gem': '1 деньга',
   '%s gems': '%s самоцветы', // 3 gems
-  '1 recruit': '1 существо',
-  '%s recruits': '%s существа', // 3 recruits
+  '1 recruit': '1 человекочас',
+  '%s recruits': '%s человекочасы', // 3 recruits
 
   'This card costs %s': 'Эта карта стоит %s', // This card costs 3 bricks
 
@@ -33,7 +33,7 @@ export const i18n = {
   '%s1. Reach %s2 to win': '%s1. Достань %s2, чтобы выиграть', // Your tower/bricks/gems/recruits. Reach 100 to win
 
   // %s = 'quarry', %ss = 'brick', %sp = 'bricks'
-  '%s (%ss production)': '%s (%ss производство)', // quarry (brick production)
+  '%s (%ss production)': '%s (%ss )', // quarry (brick production)
 
   discarded: 'сброшена',
   'Discard a card': 'Сбросить карту',

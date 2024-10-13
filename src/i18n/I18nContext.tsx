@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react'
-import { i18n as defaultTrans } from './main/en'
-import { cardsI18n as defaultCardsI18n } from '../../src/i18n/cards/en'
-import { tavernsI18n as defaultTavernsI18n } from '../../src/i18n/taverns/en'
+import { i18n as defaultTrans } from './main/ru'
+import { cardsI18n as defaultCardsI18n } from '../../src/i18n/cards/ru'
+import { tavernsI18n as defaultTavernsI18n } from '../../src/i18n/taverns/ru'
 import { defaultLang } from './langs'
 import {
   AvailableLangType,

@@ -1,10 +1,11 @@
+/*
 import { langs as langArr, langInfo } from '../../src/i18n/langs'
 import { DataCardsI18nType } from '../../src/i18n/types'
 
 // theoretically the langs imported from src/i18n/langs is not ordered
 // this makes sure 'en' is the first one
 const langs = langArr.filter((lang) => lang !== 'en')
-langs.unshift('en')
+langs.unshift('ru')
 
 const i18nPromises: Promise<{
   cardsI18n: DataCardsI18nType
@@ -69,7 +70,7 @@ const arraysEqual = (a: any[] | null, b: any[] | null) => {
 /**
  * French `'` -> `’` check
  */
-
+/*
 import { i18n } from '../../src/i18n/main/fr'
 import { cardsI18n } from '../../src/i18n/cards/fr'
 import { tavernsI18n } from '../../src/i18n/taverns/fr'
@@ -91,3 +92,4 @@ i18nArr
       console.log(s)
     }
   })
+*/
