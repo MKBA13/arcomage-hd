@@ -4,7 +4,7 @@
   "description": "Web-based free and open source HD clone of 3DO and NWC's 2000 card game Arcomage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arcomage/arcomage-hd.git"
+    "url": "https://github.com/MKBA13/arcomage-hd.git"
   },
   "packageManager": "yarn@3.2.0",
   "scripts": {
@@ -47,7 +47,7 @@
       "eslint"
     ]
   },
-  "homepage": "https://arcomage.github.io/",
+  "homepage": "https://MKBA13.github.io/",
   "keywords": [
     "arcomage",
     "card",
