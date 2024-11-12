@@ -32,7 +32,7 @@ jobs:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
           source-directory: 'dist'
-          destination-github-username: 'arcomage'
-          destination-repository-name: 'arcomage.github.io'
-          user-email: tomchen.org@gmail.com
+          destination-github-username: 'MKBA13'
+          destination-repository-name: 'MKBA13.github.io'
+          user-email: ba.workmail13@gmail.com
           target-branch: gh-pages
