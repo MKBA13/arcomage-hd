@@ -60,8 +60,8 @@ const useStyles = createUseStyles<
   }
 >({
   main: {
-    width: ({ cardPos }) => cardPos?.width,
-    height: ({ cardPos }) => cardPos?.height,
+    width: 190,
+    height: 230,
     top: ({ cardPos, total, position }) =>
       cardPos?.[total === cardPos.total ? 'top' : 'topM1'][position + 5],
     left: ({ cardPos, total, position }) =>
@@ -461,7 +461,7 @@ const Card = ({
           <div
             className={cx(
               classes.text,
-              'm-2 flex flex-wrap items-center justify-center',
+              'm-2 flex flex-wrap items-center justify-center pr-7',
             )}
           >
             <div

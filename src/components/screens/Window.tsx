@@ -97,7 +97,7 @@ const Window = ({
           <TooltipAll title={_.i18n('ArcoMage HD')}>
             <div
               className={cx(
-                classes.logo,
+                
                 {
                   hidden:
                     size.narrowMobile &&

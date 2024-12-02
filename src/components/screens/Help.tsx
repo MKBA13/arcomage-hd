@@ -66,25 +66,6 @@ const Help = () => {
 
   return (
     <Window screenActionType={SCREEN_HELP}>
-      <small className="version select-all">v{process.env.APPVERSION}</small>
-      <p className="description select-text">
-        {_.i18n('ArcoMage HD') !== 'ArcoMage HD' && (
-          <>
-            <strong>{_.i18n('ArcoMage HD')}</strong>
-            <> - </>
-          </>
-        )}
-        {_.i18n('DESC')}
-      </p>
-      <p className="help-text select-text">
-        <strong>{arr1}</strong>
-      </p>
-      <p className="help-text select-text">
-        <strong>
-          {_.i18n('Game rules')}
-          {_.i18n(': ')}
-        </strong>
-      </p>
       <div className="help-text select-text">
         {<MultilineText>{_.i18n('GAMERULES')}</MultilineText>}
       </div>
