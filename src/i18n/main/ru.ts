@@ -14,15 +14,15 @@ export const i18n = {
   magic: 'Престиж', // i.e. gem production
   dungeon: 'Персонал', // i.e. recruit production
 
-  'Your %s': 'Ваша %s', // Your quarry/tower
+  'Your %s': ' %s', // Your quarry/tower
   "Opponent's %s": '%s противника', // Opponent's quarry/tower
 
-  '1 brick': '1 экспериментальные данные',
-  '%s bricks': '%s экспериментальные данные', // 3 bricks
+  '1 brick': '1 экспериментальных данные',
+  '%s bricks': '%s экспериментальных данных', // 3 bricks
   '1 gem': '1 деньга',
-  '%s gems': '%s самоцветы', // 3 gems
+  '%s gems': '%s деньги', // 3 gems
   '1 recruit': '1 человекочас',
-  '%s recruits': '%s человекочасы', // 3 recruits
+  '%s recruits': '%s человекочасов', // 3 recruits
 
   'This card costs %s': 'Эта карта стоит %s', // This card costs 3 bricks
 
