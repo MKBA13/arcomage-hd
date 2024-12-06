@@ -60,14 +60,14 @@ const useStyles = createUseStyles<
   }
 >({
   main: {
-    width: 190,
-    height: 230,
+    width: ({ cardPos }) => cardPos?.width,
+    height:({ cardPos }) => cardPos?.height,
     top: ({ cardPos, total, position }) =>
       cardPos?.[total === cardPos.total ? 'top' : 'topM1'][position + 5],
     left: ({ cardPos, total, position }) =>
       cardPos?.[total === cardPos.total ? 'left' : 'leftM1'][position + 5],
 
-    'font-size': ({ cardPos }) => (cardPos ? cardPos.width * 0.094 : 16),
+    'font-size': ({ cardPos }) => (cardPos ? cardPos.width * 0.07 : 16),
 
     // 'will-change: opacity' has bug and cannot be set here
     'will-change': 'transform, left, top',
@@ -461,7 +461,7 @@ const Card = ({
           <div
             className={cx(
               classes.text,
-              'm-2 flex flex-wrap items-center justify-center pr-7',
+              'm-2 flex flex-wrap items-center justify-center pr-5',
             )}
           >
             <div
@@ -473,7 +473,7 @@ const Card = ({
           <div
             className={cx(
               classes.resall,
-              'absolute bottom-1 right-1 text-center font-bold',
+              'absolute bottom-1 right-1 text-center font-bold  ',
             )}
           >
             <div

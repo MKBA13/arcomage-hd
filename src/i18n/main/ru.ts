@@ -47,10 +47,10 @@ export const i18n = {
   'Your Name': 'Ваше имя',
   "Opponent's Name": 'Имя противника',
 
-  'Choose a Tavern (Preset Preferences)': 'Выберите Таверну (набор настроек)',
-  'Castle in Enroth': 'Замок в Энроте',
-  Antagarich: 'Антагрич',
-  Jadame: 'Джадам',
+  'Choose a Tavern (Preset Preferences)': 'Выберите пресет (набор настроек)',
+  'Castle in Enroth': 'лтс',
+  Antagarich: 'групка один',
+  Jadame: 'група два',
   Default: 'По умолчанию',
   Customized: 'Пользовательская',
 
